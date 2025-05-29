@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "creation": "2025-05-06 11:40:00.164302",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "",
+ "idx": 0,
+ "modified": "2025-05-06 11:40:00.164302",
+ "modified_by": "Administrator",
+ "module": "export",
+ "name": "exporter",
+ "owner": "Administrator",
+ "page_name": "exporter",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "exportData"
+}

@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "path": "/api/method/erpnext.auth.login",
+      "method": "POST",
+      "handler": "erpnext.api.auth.login"
+    },
+    {
+      "path": "/api/method/erpnext.auth.signup",
+      "method": "POST",
+      "handler": "erpnext.api.auth.signup"
+    },
+    {
+      "path": "/api/method/erpnext.auth.logout",
+      "method": "POST",
+      "handler": "erpnext.api.auth.logout"
+    },
+    {
+      "path": "api/method/erpnext.user.getUsers",
+      "method": "GET",
+      "handler": "erpnext.api.user.getUsers"
+    },
+    {
+      "path": "api/method/erpnext.user.getProfile",
+      "method": "GET",
+      "handler": "erpnext.api.user.getProfile"
+    },
+    {
+      "path": "/api/method/erpnext.devisFournisseur.get_supplier_quotations",
+      "method": "GET",
+      "handler": "erpnext.api.devisFournisseur.get_supplier_quotations"
+    },
+    {
+      "path": "/api/method/erpnext.devisFournisseur.get_quotation_details",
+      "method": "GET",
+      "handler": "erpnext.api.devisFournisseur.get_quotation_details"
+    },
+    {
+      "path": "/api/method/erpnext.devisFournisseur.update_item_rate",
+      "method": "POST",
+      "handler": "erpnext.api.devisFournisseur.update_item_rate"
+    }
+  ]
+}
