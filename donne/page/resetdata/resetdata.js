@@ -7,22 +7,12 @@ frappe.pages['resetdata'].on_page_load = function(wrapper) {
 
     // Liste des DocTypes spécifiques à afficher
     const allowed_doctypes = [
-        "Material Request Item",
-        "Material Request",
-        "Request for Quotation Item",
-        "Request for Quotation",
-        "Supplier Quotation",
-        "Supplier Quotation Item",
-        "Supplier",
-        "Item",
-        "Purchase Invoice",
-        "Purchase Invoice Item",
-        "Purchase Order",
-        "Purchase Order Item",
-        "Payment Entry",
-        "Payment Entry Reference",
-        "Purchase Receipt",
-        "Purchase Receipt Item"
+        "Customer",
+        "Quotation",
+        "Quotation Item",
+        "Sales Order",
+        "Sales Order Item",
+
     ];
 
     // Construire directement l'UI avec les DocTypes autorisés

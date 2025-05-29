@@ -14,22 +14,11 @@ def reinitialiser_donnees(doctypes):
 
     # Liste des DocTypes autorisés à être réinitialisés
     doctypes_autorises = [
-        "Material Request Item",
-        "Material Request",
-        "Request for Quotation Item",
-        "Request for Quotation",
-        "Supplier Quotation",
-        "Supplier Quotation Item",
-        "Supplier",
-        "Item",
-        "Purchase Invoice",
-        "Purchase Invoice Item",
-        "Purchase Order",
-        "Purchase Order Item",
-        "Payment Entry",
-        "Payment Entry Reference",
-        "Purchase Receipt",
-        "Purchase Receipt Item"
+         "Customer",
+        "Quotation",
+        "Quotation Item",
+        "Sales Order",
+        "Sales Order Item",
     ]
 
     results = {}
