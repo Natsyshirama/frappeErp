@@ -19,6 +19,11 @@ def reinitialiser_donnees(doctypes):
         "Quotation Item",
         "Sales Order",
         "Sales Order Item",
+        "Delivery Note",
+        "Delivery Note Item",
+        "Sales Invoice",
+        "Sales Invoice Item",
+        "Sales Invoice Payment",
     ]
 
     results = {}

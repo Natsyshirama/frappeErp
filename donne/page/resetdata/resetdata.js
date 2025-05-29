@@ -12,6 +12,11 @@ frappe.pages['resetdata'].on_page_load = function(wrapper) {
         "Quotation Item",
         "Sales Order",
         "Sales Order Item",
+        "Delivery Note",
+        "Delivery Note Item",
+        "Sales Invoice",
+        "Sales Invoice Item",
+        "Sales Invoice Payment"
 
     ];
 
